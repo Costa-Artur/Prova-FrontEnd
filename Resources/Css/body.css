@@ -1,0 +1,12 @@
+:root {
+    --destaque: #0275D8;
+    --fonte-sidebar: #CDCDCD;
+    
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #F6F6F6;
+    font-family: 'Roboto', sans-serif;
+}

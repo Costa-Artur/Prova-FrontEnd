@@ -1,0 +1,263 @@
+.services {
+    display: flex;
+    height: 100%;
+}
+
+.services__container {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services__content {
+    width: 90%;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    height: 85%;
+}
+
+.services__title {
+    color: var(--destaque);
+    font-weight: bold;
+    font-size: clamp(4rem, 7vh, 5rem);
+}
+
+.services__searchbar {
+    width: 100%;
+    display: flex;
+    margin: 2.5% 0;
+}
+
+.searchbar__input {
+    width: 100%;
+    padding: 1%;
+    background-color: #F6F6F6;
+    border: solid 2px #CDCDCD;
+    border-radius: 10px 0 0 10px;
+    
+    font-size: clamp(1rem, 1.2vmin, 3rem);
+}
+
+.searchbar__button {
+    background-color: #CDCDCD;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: clamp(1.5rem, 1.5vmin, 3rem);
+    border-radius: 0 10px 10px 0;
+}
+
+.services-table__column-title {
+    position: sticky;
+    top: 0;
+    padding: 2% 0;
+    font-weight: bold;
+    font-size: clamp(1.3rem, 1vh, 3rem);
+}
+
+.services__table {
+    width: 100%;
+}
+
+.angulo {
+    color: var(--destaque);
+}
+
+.name {
+    width: 15%;
+}
+
+.description {
+    width: 55%;
+}
+
+
+.category {
+    width: 15%;
+}
+
+.price {
+    width: 15%;
+}
+
+.services__table {
+    border-radius: 50px;
+    border: solid 2px #CDCDCD;
+    border-collapse: collapse;
+}
+
+.services-table__head {
+    background-color: #FFFFFF;
+}
+
+.services-table-body__content {
+    width: 100%;
+    font-size: clamp(1.2rem, 1.4vmin, 3rem);
+    border: solid 2px #CDCDCD;
+    cursor: pointer;
+}
+
+.services-table-body__name {
+    padding: 2%;
+}
+
+.services-table-body__description {
+    padding: 2%;
+}
+
+.services-table-body__category {
+    padding: 2%;
+}
+
+.services-table-body__price {
+    padding: 2%;
+}
+
+.services-table-body__content:hover {
+    background-color: var(--destaque);
+    color: #FFFFFF;
+    border: solid 2px var(--destaque);
+}
+
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin: 3% 0;
+}
+
+.pagination__button {
+    padding: 1%;
+    border: 1px solid #CDCDCD;
+    color: var(--destaque);
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+    border-collapse: collapse;
+}
+
+.pagination__button:hover {
+    background-color: var(--destaque);
+    color: #FFFFFF;
+    
+    border: 1px solid var(--destaque);
+}
+
+.inativo {
+    display: none;
+}
+
+.services__edit-service-container.ativo {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-service {
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.edit-service__title {
+    color: var(--destaque);
+    font-weight: bold;
+    font-size: clamp(4rem, 7vh, 5rem);
+    margin-bottom: 2%;
+}
+
+.edit-service__information {
+    color: var(--destaque);
+    font-size: clamp(1.3rem, 2.5vh, 2rem);
+}
+
+.edit-service-information__line {
+    height: 2px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.edit-service__form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 3% 0;
+}
+
+.edit-service-form__main {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+.edit-service-form__secondary {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.edit-service-form__input {
+    margin-bottom: 3vh;
+    padding: 1.5vh 1vh;
+    border-radius: 10px;
+    border: 1px solid #CDCDCD;
+}
+
+.edit-service__buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10% 0 0 0;
+}
+
+.edit-service-buttons__inactive {
+    display: flex;
+    align-items: center;
+}
+
+.edit-service-buttons__main {
+    display: flex;
+}
+
+.edit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 2vh 4vh;
+    margin-left: 1vw;
+    border-radius: 10px;
+    border: none;
+    font-size: clamp(1rem, 1.5vh, 2rem);
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #CDCDCD;
+}
+
+.edit-service-save-button {
+    background-color: var(--destaque);
+}
+
+label {
+    display: flex;
+    font-weight: bold;
+    font-size: clamp(0.8rem, 1vh, 2rem);
+    margin-left: 1vh;
+}
+
+.destaque {
+    color: red;
+}
