@@ -129,7 +129,6 @@
     display: flex;
     justify-content: flex-end;
     margin: 3% 0;
-    cursor: pointer;
 }
 
 .pagination__button {
@@ -139,6 +138,8 @@
     font-weight: bold;
     transition: all 0.2s ease-in-out;
     border-collapse: collapse;
+    
+    cursor: pointer;
 }
 
 .pagination__button:hover {
