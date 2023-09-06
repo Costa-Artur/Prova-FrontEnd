@@ -111,3 +111,15 @@
 .navbar__infos {
     display: flex;
 }
+
+.services-table-body__name{
+    text-align: center;
+}
+
+.services-table-body__category{
+    text-align: center;
+}
+
+.services-table-body__price{
+    text-align: center;
+}
