@@ -129,6 +129,7 @@
     display: flex;
     justify-content: flex-end;
     margin: 3% 0;
+    cursor: pointer;
 }
 
 .pagination__button {
